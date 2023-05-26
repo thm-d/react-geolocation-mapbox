@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.map-container {
+    height: 500px;
+    width: 50vw;
+    border-radius: 5px;
+}
+
+.sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.marker {
+    background: #d35400;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.2rem;
+    color: #ffffff;
+    transition: .2s;
+    border: 1px solid lightgrey;
+}
+
+.marker:hover {
+    background: #e67e22;
+    color: #333;
+}
+
+.mapboxgl-ctrl-attrib-inner {
+    display: none;
+}
+
+/*CSS modal*/
+
+.calc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    min-width: 30rem;
+    border-radius: 3px;
+    padding: 3rem 4rem;
+    box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%);
+    text-align: center;
+}
+
+.btn {
+    margin-left: 0.5rem;
+}
+
