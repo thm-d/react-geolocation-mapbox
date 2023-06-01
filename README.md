@@ -4,6 +4,11 @@ This mini-project allowed me to manipulate the Mapbox API via React.
 The CSS part was handled with TailwindCSS.
 Obviously, there's still a lot of room for improvement in the project, with many potential features to be implemented, but what interested me here was establishing a few basic map-related functionalities.
 
+# Project Stack
+
+- React
+- Tailwind CSS
+- Mapbox
 
 # Getting Started with Geolocation Application
 
