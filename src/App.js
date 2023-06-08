@@ -9,7 +9,7 @@ import { Button } from "./components/Utils/Button";
 export const App = () => {
   const [contacts, setContacts] = useState([
     {
-      name: "Monsieur X",
+      name: "John Doe",
       description: "CTO",
       type: "Company",
       coords: { lng: 5.997809614585066, lat: 47.25216557801369 }

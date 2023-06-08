@@ -113,7 +113,7 @@ export const MapContainer = (props) => {
           : <></> }
       </Map>
       { open ?
-        <Modal title="Form" closeModal={ closeModal }>{ displayContactForm() }</Modal> : null }
+        <Modal title="Add contact" closeModal={ closeModal }>{ displayContactForm() }</Modal> : null }
       { openModalContact ?
         <Modal title="Fiche contact" closeModal={ closeModal }>
           <DisplayContactsInfos name={ target.name }
