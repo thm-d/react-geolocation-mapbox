@@ -12,7 +12,7 @@ export const ContactList = (props) => {
       <h2 className="text-3xl font-semibold text-zinc-700 mb-3 uppercase">contacts</h2>
       <ul className="contacts-list">
         {contacts.map((contact, index) => (
-          <li key={crypto.randomUUID()}
+          <li key={Math.random()}
               onClick={() => setOpenedContactModalIndex(index)}
               className="text-indigo-600 hover:opacity-80 cursor-pointer">{contact.name}</li>
         ))}

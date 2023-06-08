@@ -46,7 +46,7 @@ export const MapContainer = (props) => {
 
   const addMarker = (lng, lat) => {
     return (
-      <Marker key={ crypto.randomUUID() }
+      <Marker key={ Math.random() }
               longitude={ lng }
               latitude={ lat }
               color="#e74c3c"
