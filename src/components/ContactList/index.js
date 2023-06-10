@@ -8,7 +8,7 @@ export const ContactList = (props) => {
   const [openedContactModalIndex, setOpenedContactModalIndex] = useState(null);
 
   return (
-    <div className="mx-5">
+    <div className="mr-5 my-5 md:mx-5 md:my-0">
       <h2 className="text-3xl font-semibold text-zinc-700 mb-3 uppercase">contacts</h2>
       <ul className="contacts-list">
         {contacts.map((contact, index) => (

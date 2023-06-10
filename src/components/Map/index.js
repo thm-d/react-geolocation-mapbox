@@ -104,7 +104,7 @@ export const MapContainer = (props) => {
              latitude: 48.85,
              zoom: 4.5
            } }
-           style={ { width: '50vw', height: '500px' } }
+           style={ { height: '500px', minWidth: '325px', maxWidth: '600px' } }
            mapStyle="mapbox://styles/mapbox/streets-v12"
            mapboxAccessToken="pk.eyJ1IjoidGhtLWQiLCJhIjoiY2w4YTh1ZmxjMDM2MTQwbjF5b210OXR1bCJ9.ganmPYujshib9TYDqKUV7g"
       >

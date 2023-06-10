@@ -42,7 +42,7 @@ export const App = () => {
                 onClick={() => localStorage.removeItem("contacts")}
                 type="submit" />
       </form>
-      <div className="content mx-4 flex justify-start">
+      <div className="content mx-4 flex justify-start flex-col md:flex-row">
         <MapContainer contacts={contacts} setContacts={setContacts} />
         <ContactList contacts={contacts} setContacts={setContacts} />
       </div>
